@@ -9,14 +9,8 @@
         cursor: pointer;
     }
 
-    .play-button:hover .play-img path {
-        fill: var(--light-color);
-    }
-    .play-button:hover span {
-        color: var(--light-color);
-    }
     .play-button-wrapper:hover {
-        border-bottom: 1px solid var(--accent-color);
+        border: 1px solid var(--accent-color);
     }
 
     .card-link:hover .card-link-img path {
@@ -42,8 +36,8 @@
     }
 
     .form-group button:hover {
-        color: var(--accent-color);
-        background-color: var(--dark-color);
+        color: var(--dark-color);
+        background-color: var(--accent-color);
         border: 1px solid var(--accent-color);
     }
 
