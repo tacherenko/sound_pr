@@ -1,0 +1,57 @@
+@media (hover: hover) {
+    .link:hover {
+        color: var(--accent-color);
+    }
+    .close:hover,
+    .close:focus {
+        color: var(--accent-color);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .play-button:hover .play-img path {
+        fill: var(--light-color);
+    }
+    .play-button:hover span {
+        color: var(--light-color);
+    }
+    .play-button-wrapper:hover {
+        border-bottom: 1px solid var(--accent-color);
+    }
+
+    .card-link:hover .card-link-img path {
+        fill: var(--accent-color);
+    }
+    .card-link:hover .card-link-info{
+        color: var(--accent-color);
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: var(--accent-color);
+    }
+
+    .download-btn:hover {
+        color: var(--accent-color);
+        background-color: var(--light-color);
+        border: 1px solid var(--accent-color);
+    }
+
+    .download-btn:hover .download-img .download-icon {
+        fill: var(--accent-color);
+    }
+
+    .form-group button:hover {
+        color: var(--accent-color);
+        background-color: var(--dark-color);
+        border: 1px solid var(--accent-color);
+    }
+
+    .social-link:hover path {
+        fill: var(--accent-color);
+    }
+
+    .footer-contact-link:hover path {
+        fill: var(--accent-color);
+    }
+}
