@@ -258,7 +258,8 @@ a {
     background-repeat: no-repeat;
     padding-bottom: 100px;
     position: relative;
-    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .slider-bg {
